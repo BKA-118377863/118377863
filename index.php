@@ -6,12 +6,24 @@ and open the template in the editor.
 -->
 <html>
     <head>
+        <title>Home Page</title>
         <meta charset="UTF-8">
-        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
+    <h1> Home Page</h1>
     <body>
-        <?php
-        echo 'Hello world';
-        ?>
+         <style>
+            
+            body {
+                background-color: lightblue }
+            </style>
+        <h3> <div><a  class="reload btn" href="CV.html" >Curriculum Vitae</a></div></h3>
+       
+        <h3> <div><a  class="reload btn" href="tiltedpage_scroll_demo.html" >Interests</a></div></h3>
+        <h3> <div><a  class="reload btn" href="Consultancy.html" >Online Shop</a></div></h3>
+        <h3> <div><a  class="reload btn" href="Calculator.html" >Calculator</a></div></h3>
+        <p><img src="img/menu.png" alt=""></p>
+        
+        
     </body>
 </html>
